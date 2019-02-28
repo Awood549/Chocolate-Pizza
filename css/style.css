@@ -1,0 +1,32 @@
+h2{
+    font-family:cursive;
+  }
+  h1{
+    font-family:sans-serif;
+    font-weight:800;
+    font-size: 28px;
+  }
+  h5{
+    font-size:13px;
+  }
+  header li{
+      display:inline;
+  }
+  header h2{
+      display: inline;
+  }
+  header section img{
+      float:left;
+  }
+  header{
+      margin-top: 30px;
+  }
+  .social-thumbs{
+      float:right;
+  }
+  .hero{
+      margin:0 auto;
+  }
+  .clear-fix{
+      clear:both;
+  }
