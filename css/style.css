@@ -1,13 +1,13 @@
 h2{
-    font-family: 'Script MT';
+    font-family: 'Yellowtail', cursive;
     font-size:28px;
-    font-weight:600;
   }
 
   h1{
     font-family:'Tahoma';
     font-weight:500;
     font-size: 28px;
+    margin-top:40px;
   }
 
   h5{
@@ -26,7 +26,7 @@ h2{
     display:inline;
   }
   header ul{
-      margin-right: 325px;
+      margin-right: 25%;
   }
 
   header h2{
@@ -35,56 +35,122 @@ h2{
 
 .bar{
     display:block;
-    width:900px;
-    margin-bottom:40px;
+    width:75%;
     margin-top:15px;
 }
 
 .print{
     float:right;
-    margin-right:325px;
+    margin-right:26%;
     margin-bottom:20px;
 }
 .print li{
     display:inline-block;
     font-size:12px;
 }
-  header section img{
+header section img{
     float:left;
     margin-right:5px;
   }
 
-  header{
+header{
     margin-top: 30px;
   }
 
-  .social-thumbs{
+.social-thumbs{
     float:right;
     position: relative;
     bottom:30px;
   }
 
-  .hero{
+.hero{
       display:block;
   }
 
-  .clear-fix{
-    /* clear:both; */
+.clear-fix{
+    clear:both;
   }
 
 body{
-    margin-left:300px;
+    margin-left:20%;
 }
 main p{
     margin-top:30px;
     margin-bottom:30px;
-    margin-right: 325px;
+    margin-right: 25%;
     text-indent: 30px;
 }
 main ul{
-    z-index: 1;
+  display:inline-block;
+  margin-bottom:8%;
+  margin-top:35px;
+  font-size:20px;
 }
+main li{
+  margin:10px;
+}
+main ul:nth-child(5){
+  margin-left:55px;
+  margin-right:15%;
+}
+
 main img{
-    float:center;
-    z-index: 0;
+    position: absolute;
+    z-index:-1;
+}
+
+footer img{
+  margin-top:15px;
+  float: left;
+}
+
+h4{
+  display: inline-block;
+  margin-top:10px;
+  margin-left:2%;
+  font-weight: 800;
+}
+
+footer p{
+  margin-top:10px;
+  margin-left:8%;
+  width: 40%;
+}
+
+button{
+  float:right;
+  margin-right: 30%;
+  margin-top:20px;
+  border:none;
+  background: rgb(170, 79, 69);
+  color:#fff;
+  padding:20px 45px;
+  transition: 350ms;
+  cursor: pointer;
+}
+
+.footer-barL{
+  background-color:rgba(128, 128, 128, 0.651);
+  height:.5px;
+  margin-top:5%;
+  width:35%;
+  float:left;
+}
+.footer-barR{
+  background-color:rgba(128, 128, 128, 0.651);
+  height:.5px;
+  margin-top:5%;
+  width:35%;
+  display:inline-block;
+}
+.lil-logo{
+  display:inline-block;
+  position: relative;
+  top:30px;;
+}
+footer section p{
+  margin-top:15px;
+  margin-left:17%;
+  text-align:center;
+
 }
