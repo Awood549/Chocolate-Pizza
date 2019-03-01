@@ -1,32 +1,90 @@
 h2{
-    font-family:cursive;
+    font-family: 'Script MT';
+    font-size:28px;
+    font-weight:600;
   }
+
   h1{
-    font-family:sans-serif;
-    font-weight:800;
+    font-family:'Tahoma';
+    font-weight:500;
     font-size: 28px;
   }
+
   h5{
     font-size:13px;
   }
+
+  h6{
+    font-size:8px;
+    margin:5px;
+  }
+.header-gap{
+    margin-left:10px;
+}
+
   header li{
-      display:inline;
+    display:inline;
   }
+  header ul{
+      margin-right: 325px;
+  }
+
   header h2{
-      display: inline;
-  }
+    display: inline;
+    }
+
+.bar{
+    display:block;
+    width:900px;
+    margin-bottom:40px;
+    margin-top:15px;
+}
+
+.print{
+    float:right;
+    margin-right:325px;
+    margin-bottom:20px;
+}
+.print li{
+    display:inline-block;
+    font-size:12px;
+}
   header section img{
-      float:left;
+    float:left;
+    margin-right:5px;
   }
+
   header{
-      margin-top: 30px;
+    margin-top: 30px;
   }
+
   .social-thumbs{
-      float:right;
+    float:right;
+    position: relative;
+    bottom:30px;
   }
+
   .hero{
-      margin:0 auto;
+      display:block;
   }
+
   .clear-fix{
-      clear:both;
+    /* clear:both; */
   }
+
+body{
+    margin-left:300px;
+}
+main p{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right: 325px;
+    text-indent: 30px;
+}
+main ul{
+    z-index: 1;
+}
+main img{
+    float:center;
+    z-index: 0;
+}
